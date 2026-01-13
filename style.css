@@ -1,0 +1,167 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* start css to the task section */
+.task{
+    width: 100%;
+    height: auto;
+    padding: 60px 0px;
+    overflow: hidden;
+    background-color: rgb(202, 252, 255);
+    box-sizing: border-box;
+}
+.task .box{
+    background-color: #000;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.task .box .blue{
+    background-color: hsl(240, 63%, 35%);
+    
+background: linear-gradient(186deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 53%);
+width:50%;
+height: 100%;
+border-radius: 12px;
+text-align: center;
+color: #fff;
+padding: 15px;
+box-sizing: border-box;
+}
+.task .box .blue .circle{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px rgb(12, 12, 241);
+    background-color: rgb(12, 12, 241);
+    margin:10px auto;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items:center ;*/
+    box-shadow: 0px 5px 0px -1px rgb(103, 103, 190);
+    margin-top: 40px;
+}
+
+
+.task .box .white{
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+.task .box .blue .circle h2{
+  
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+.task .box .blue h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 15px;
+    margin: 50px 0px;
+}
+.task .box .blue p{
+    font-size: 20px;
+    font-family: initial;
+    line-height: 30px;
+    margin: 30px 10px;
+}
+h3{
+    margin-top: 40px;
+}
+.task .box .white h3{
+    color: #000;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+
+}
+.task .box .white .item{
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:18px 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.task .box .white .item:first-of-type{
+    background-color: rgba(244, 180, 180, 0.1);
+    color: #f55353;
+}
+/*.task .box .white .item:last-of-type{
+    color: #303B5a;
+    background-color: #303B5a;
+}*/
+.task .box .white .item:nth-child(2){
+    color: #ffB01E;
+    background-color: #ebd9b4;
+}
+.task .box .white .item:nth-child(3){
+    color: #48d5b4;
+    background-color: #aeeadd;
+}
+.task .box .white .item:nth-child(4){
+   color:  #1125D4 ;
+   background-color: #9fa6ec;
+}
+.task .box .white .item:nth-child(5){
+    color: #939adf;
+    background-color: #4758ef;
+}
+.task .box .white .icon i{
+    color: darkmagenta;
+    margin:5px 8px 0px 0px;
+    font-size: 14px;
+    margin: 21px 8px 0px 0px;
+}
+.task .box .white .icon h5{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.task .box .white .item .count span{
+    font-size: 18px;
+    word-spacing: 6px;
+}
+.task .box .white .item .count span:first-of-type{
+    color: #000;
+    margin-right: 16px;
+}
+.task .box .white .item .count span:last-of-type{
+    color: #fff;
+}
+.task .box .white .item button{
+    width: 100%;
+    padding: 16px;
+    background-color: #303B5A;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+}
